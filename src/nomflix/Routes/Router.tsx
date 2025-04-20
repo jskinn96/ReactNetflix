@@ -23,6 +23,11 @@ const Router = createBrowserRouter([
             },
         ]
     }
-]);
+    
+],
+{ 
+    basename: "/ReactNetflix" 
+}
+);
 
 export default Router;
